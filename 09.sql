@@ -1,0 +1,18 @@
+INSERT
+	INTO
+	COMPRAS (ID_CLIENTE,
+	ID_PRODUTO)
+VALUES((
+SELECT
+	ID
+FROM
+	CLIENTES
+WHERE
+	NOME = 'Chico Buarque de Holanda'),
+(
+SELECT
+		ID
+FROM
+		PRODUTOS
+WHERE
+		NOME = 'Violão Lava ME 2'));

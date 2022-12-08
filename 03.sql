@@ -1,0 +1,6 @@
+SELECT
+	*
+FROM
+	PRODUTOS
+WHERE
+	NOME = 'Televisão 43"';
